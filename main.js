@@ -2,7 +2,7 @@ function tocaSom(idElementoAudio){
     document.querySelector(idElementoAudio).play();
 }
 
-const ListaDeTeclados = document.querySelectorAll(".tecla");
+const listaDeTeclas = document.querySelectorAll(".tecla");
 
 for (let contador = 0; contador < listaDeTeclados.length; contador++) {
     const tecla = listaDeTeclas[contador];
